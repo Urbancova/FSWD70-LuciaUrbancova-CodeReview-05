@@ -1,0 +1,244 @@
+body{
+    margin-top:0px;
+    margin-bottom: 0px;
+    background:#171E24;
+}
+
+header h1 {
+    background-color: #111111;
+    color: white;
+    margin: 0px;
+    padding: 50px;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+ul {
+    background-color: #434343;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    list-style-type: none;
+    
+}
+        
+li {
+    padding: 10px;
+    
+    }
+
+.movies{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.sort {
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+}
+.sort-container {
+    text-align: right;
+    padding: 30px;
+}
+
+.prod-info-main {
+    border: 1px solid #CEEFFF;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: #fff;
+    padding: 6px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(21,180,255,0.5);
+    box-shadow: 0 1px 1px 0 rgba(21,180,255,0.5);
+}
+
+.prod-info-main .product-image {         /*toto je image container pre seckych nechaj*/
+    background-color: #111111;
+    display: block;
+    min-height: 238px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #CEEFFF;
+    width:100%;
+    
+}
+
+.prod-info-main .product-deatil {                   /*cim container marad*/
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #111111;
+    color: white;
+}
+
+.product-deatil h5 {                                /*cim marad*/
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.prod-info-main .description {                  /*description marad*/
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 10px 14px 16px 19px;
+    background: #111111;
+    color: white;
+}
+
+.container-like {                                   /*marad*/
+    background-color: #111111;
+    display: flex;
+}
+        
+button img {                            /*marad*/              
+    width:30px;
+    height: 30px;
+}
+
+button {
+    background-color: #111111;              /*marad*/
+    border: none;
+    cursor: pointer;
+}
+.like {
+    color: #52B510;                 /*marad*/
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#clicks {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+#clicks2 {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+#clicks3 {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+#clicks4 {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+#clicks5 {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+#clicks6 {                           /*marad*/
+    background-color: white;
+    border-radius: 50%;        
+    background: #52B510;
+    display:inline-block;
+    line-height:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    color: white;
+}
+
+.likekorulicont {
+    background-color: #111111; 
+}
+
+.prod-info-main .product-info {
+    padding: 11px 19px 10px 20px;
+    background-color: #111111; 
+}
+.color {
+    background-color: #111111;
+}
+
+
+.product-info.smart-form .container-like {
+    margin-top:15px;
+    margin-left: 100px;
+    
+}
+
+.product-deatil .name {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+footer h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+figcaption {
+  color: white;
+  font-size: 20px;
+  text-align: center; }
+
+@media only screen and (min-width:1024px) {
+    .prod-info-main div[class*=col-md-4] {
+        padding-right: 0
+    }
+    .prod-info-main div[class*=col-md-8] {
+        padding: 0 13px 0 0
+    }
+    .prod-wrap div[class*=col-md-5] {
+        padding-right: 0
+    }
+    .prod-wrap div[class*=col-md-7] {
+        padding: 0 13px 0 0
+    }
+    .prod-info-main .product-image {
+        border-right: 1px solid #dfe5e9
+    }
+   
+}
